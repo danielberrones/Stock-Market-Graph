@@ -3,6 +3,7 @@ import yfinance as yf
 
 
 def graphTicker(ticker):
+    '''Plot ticker'''
     tickerTitle = ticker
     ticker = yf.Ticker(ticker)
     tickerClose = [i for i in ticker.history(period='max')['Close']]
