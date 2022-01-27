@@ -14,4 +14,3 @@ def graphTicker(ticker):
 
 while True:
     graphTicker(input('Enter Ticker symbol: \n'))
-
